@@ -1,0 +1,111 @@
+
+#container-div{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 100vh;
+    padding: 10px;
+    background-color: rgb(150, 209, 155);
+    min-width: 512px;
+    /* display: flex; */
+}
+
+#input-search{
+    display: grid;
+    /* border: 1px solid red; */
+    grid-template-columns: 1fr 70px;
+    column-gap: 10px;
+    justify-content: space-around;
+    padding: 2px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#super-search{
+    font-size: 1.2rem;
+}
+
+#super-btn{
+    font-size: 1rem;
+}
+
+#auto-complete{
+    /* border: 1px solid black; */
+    width: 80%;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#auto-complete-list{
+    padding: 0%;
+    margin: 0%;
+    position: absolute;
+    background-color: black;
+    left: 15%;
+    right: auto;
+    /* background-color: rgb(150, 209, 155); */
+}
+
+#super-info{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+
+#super-img-div{
+    /* margin-top: 30px; */
+    /* border: 1px solid red; */
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-radius: 50%; */
+}
+
+
+#super-img-div img{
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+#super-info-div{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+}
+
+#next-btn{
+    float: right;
+    margin-left: 10px;
+    background-color: green;
+    color: white;
+}
+
+#remove-btn{
+    float:right;
+    background-color: blue;
+    color: white;
+}
+
+a{
+    margin-left: 40%;
+}
+
+#prev-btn{
+    float: right;
+    background-color: green;
+    color: white;
+    margin-left: 10px;
+}
